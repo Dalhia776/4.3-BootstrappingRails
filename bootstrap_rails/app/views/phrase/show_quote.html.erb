@@ -1,0 +1,5 @@
+<!-- <%= link_to("Todd is the six fingered man!", namer_path(:name => "Todd") ) %> -->
+
+<% @quotes.each do |movie, quote| %>
+  <p><%= "#{movie}, #{quote}" %></p>
+<%end %>
